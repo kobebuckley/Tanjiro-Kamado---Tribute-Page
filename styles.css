@@ -1,76 +1,80 @@
 /*Upper*/
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 20px;
+  padding: 20px; */
 }
 
   body {
     background-color: #fff;
-    /* color: #228B22  ; */
   }
   
+
+/*Pre Reqs for Project Guidelines*/
+#main {
+  background-color: #2E8B57;
+  margin: 20px 10px;
+  text-align: center;
+  }
+
+  #timeline {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+  
+
   #title {
+    font-size: 24px;
+    font-weight: bold;
     margin-top: 40px;
     padding: 20px;
+    margin-bottom: 20px;
   }
+
   #subtext {
     margin-top: -20px;
     padding: 20px;
 
   }
 
-/*Pre Reqs for Project Guidelines*/
-#main {
-    text-align: center;
-  }
-  #title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
   #img-div {
+    margin: 20px;
+    background-color: #fff;
+  
     margin-bottom: 20px;
   }
+
   #image {
+    width: 100%;
+    padding: 20px;
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 66vw;
+    height: 66vh;
     margin: 0 auto;
   }
+
   #img-caption {
     font-style: italic;
   }
   #tribute-info {
-    margin-bottom: 20px;
+    margin: 20px 10px;
+    text-align: center;
   }
-  #tribute-link {
-    /* display: inline-block;
-    padding: 10px 20px; */
-    /* background-color: #333; */
-    /* color: #FF4500; */
-    /* text-decoration: none; */
+
+  a {
+    color: #FF4500;
+    text-decoration: none;
+  
   }
-  /*End - Pre Reqs for Project Guidelines*/
+  
+/* 
+  li {
+    text-align: center;
+  } */
 
-/*General*/
-#tribute-info, .colored {
-  background-color: #2E8B57  ;
-
-}
-
-
-img {
-  width: 100%;
-  padding: 20px;
-}
-
-a {
-  color: #FF4500;
-
-}
-
-
-button:hover{
-  cursor: pointer;
-  /* color: #008000; */
-}
+  button:hover{
+    cursor: pointer;
+    /* color: #008000; */
+  }
+  
