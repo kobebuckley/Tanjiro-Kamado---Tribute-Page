@@ -1,5 +1,23 @@
 /*Upper*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
+  body {
+    background-color: #fff;
+    /* color: #228B22  ; */
+  }
+  
+  #title {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  #subtext {
+    margin-top: -20px;
+    padding: 20px;
+
+  }
 
 /*Pre Reqs for Project Guidelines*/
 #main {
@@ -26,12 +44,33 @@
     margin-bottom: 20px;
   }
   #tribute-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
+    /* display: inline-block;
+    padding: 10px 20px; */
+    /* background-color: #333; */
+    /* color: #FF4500; */
+    /* text-decoration: none; */
   }
   /*End - Pre Reqs for Project Guidelines*/
 
 /*General*/
+#tribute-info, .colored {
+  background-color: #2E8B57  ;
+
+}
+
+
+img {
+  width: 100%;
+  padding: 20px;
+}
+
+a {
+  color: #FF4500;
+
+}
+
+
+button:hover{
+  cursor: pointer;
+  /* color: #008000; */
+}
