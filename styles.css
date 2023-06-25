@@ -53,21 +53,36 @@
   padding: 10px;  
 }
 
+h2 {
+  text-align: center;
+}
+
 
   #timeline {
     margin: 10px;
+    padding: 20px;
     display: flex;
     justify-content: left;
     align-items: left;
       }
 
+li {
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
   #quote-info{
     margin: 20px 10px;
     display: block;
+    font-style: italic;
+
       }
   
   #tribute-info {
-    background-color: gray;
+    /* background-color: gray; */
     display: block;
     width: 33vw;
     margin: 0 auto;
@@ -75,10 +90,17 @@
     text-align: left;
   }
 
-  #credit-info {
+  #more-info {
     display: block;
     margin: 20px 10px;
-    text-align: center;
+    text-align: left;
+  }
+
+  #credit-info {
+    display: block;
+    margin: 10px auto;
+    /* margin-top: 40px; */
+    text-align: left;
   }
 
   a {
