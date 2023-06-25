@@ -1,5 +1,6 @@
 /*Upper*/
 * {
+  font-size: 16px;
   margin: 0;
   padding: 0  ;
 }
@@ -12,7 +13,7 @@
 /*Pre Reqs for Project Guidelines*/
 #main {
   /* background-color: #2E8B57; */
-  background-color: gray;
+  background-color: #fff;
   margin: 20px 10px;
   text-align: center;
   }
@@ -30,6 +31,7 @@
   #subtext {
     margin-top: -20px;
     padding: 20px;
+    font-size: 20px;
 
   }
 
@@ -56,6 +58,8 @@
 
 h2 {
   text-align: center;
+  font-size: 22px;
+
 }
 
 
@@ -103,7 +107,7 @@ p {
   }
   
   a:hover {
-    color: #fff; /* Color when hovered */
+    color: #2E8B57; /* Color when hovered */
   }
   
   a:active {
