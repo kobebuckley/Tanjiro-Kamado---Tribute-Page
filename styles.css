@@ -16,13 +16,7 @@
   text-align: center;
   }
 
-  #timeline {
-    margin: 20px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      }
-  
+
 
   #title {
     font-size: 24px;
@@ -41,12 +35,11 @@
   #img-div {
     margin: 20px;
     background-color: #fff;
-  
     margin-bottom: 20px;
   }
 
   #image {
-    width: 100%;
+    /* width: 100%; */
     padding: 20px;
     display: block;
     width: 66vw;
@@ -57,7 +50,37 @@
   #img-caption {
     font-style: italic;
   }
+
+
+  #timeline {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+
+  #quote-info{
+    margin: 20px 10px;
+    display: block;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+      }
+  
   #tribute-info {
+    background-color: gray;
+
+    display: block;
+    width: 66vw;
+    margin: 0 auto;
+  padding: 20px; 
+
+ display: block;
+    text-align: center;
+  }
+
+  #credit-info {
+    display: block;
     margin: 20px 10px;
     text-align: center;
   }
