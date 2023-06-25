@@ -35,8 +35,9 @@
   #img-div {
     margin: 20px;
     background-color: #fff;
-    margin-bottom: 20px;
-  }
+    /* margin-bottom: 20px; */
+  /* padding: 10px;   */
+}
 
   #image {
     /* width: 100%; */
@@ -49,7 +50,8 @@
 
   #img-caption {
     font-style: italic;
-  }
+  padding: 10px;  
+}
 
 
   #timeline {
@@ -68,7 +70,7 @@
       }
   
   #tribute-info {
-    background-color: gray;
+    /* background-color: gray; */
 
     display: block;
     width: 66vw;
@@ -86,18 +88,19 @@
   }
 
   a {
-    color: #FF4500;
-    text-decoration: none;
-  
+    color: blue; /* Default color */
+    text-decoration: none; /* Remove underline by default */
   }
   
-/* 
-  li {
-    text-align: center;
-  } */
-
+  a:hover {
+    color: #2E8B57; /* Color when hovered */
+  }
+  
+  a:active {
+    color: gray; /* Color when clicked */
+  }
+  
   button:hover{
     cursor: pointer;
-    /* color: #008000; */
   }
   
