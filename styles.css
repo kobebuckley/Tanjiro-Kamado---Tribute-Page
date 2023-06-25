@@ -1,4 +1,4 @@
-/*Upper*/
+
 * {
   font-size: 16px;
   margin: 0;
@@ -9,13 +9,11 @@
     background-color: #fff;
   }
   
-
-/*Pre Reqs for Project Guidelines*/
 #main {
-  /* background-color: #2E8B57; */
   background-color: #fff;
   margin: 20px 10px;
   text-align: center;
+  
   }
 
 
@@ -38,17 +36,18 @@
   #img-div {
     margin: 20px;
     background-color: #fff;
-    /* margin-bottom: 20px; */
-  /* padding: 10px;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
   #image {
-    /* width: 100%; */
-    padding: 20px;
-    display: block;
     width: 66vw;
-    height: 66vh;
-    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    
   }
 
   #img-caption {
@@ -61,7 +60,6 @@ h2 {
   font-size: 22px;
 
 }
-
 
   #timeline {
     margin: 10px;
@@ -84,10 +82,9 @@ p {
     display: block;
     font-style: italic;
 
-      }
+}
   
   #tribute-info {
-    /* background-color: gray; */
     display: block;
     width: 33vw;
     margin: 0 auto;
@@ -102,16 +99,16 @@ p {
   }
 
   a {
-    color: blue; /* Default color */
-    text-decoration: none; /* Remove underline by default */
+    color: blue;
+    text-decoration: none; 
   }
   
   a:hover {
-    color: #2E8B57; /* Color when hovered */
+    color: #2E8B57; 
   }
   
   a:active {
-    color: gray; /* Color when clicked */
+    color: gray; 
   }
   
   button:hover{
