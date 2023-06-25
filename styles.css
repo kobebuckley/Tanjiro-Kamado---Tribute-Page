@@ -11,7 +11,8 @@
 
 /*Pre Reqs for Project Guidelines*/
 #main {
-  background-color: #2E8B57;
+  /* background-color: #2E8B57; */
+  background-color: gray;
   margin: 20px 10px;
   text-align: center;
   }
@@ -96,20 +97,13 @@ p {
     text-align: left;
   }
 
-  #credit-info {
-    display: block;
-    margin: 10px auto;
-    /* margin-top: 40px; */
-    text-align: left;
-  }
-
   a {
     color: blue; /* Default color */
     text-decoration: none; /* Remove underline by default */
   }
   
   a:hover {
-    color: #2E8B57; /* Color when hovered */
+    color: #fff; /* Color when hovered */
   }
   
   a:active {
