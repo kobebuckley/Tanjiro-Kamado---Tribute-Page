@@ -1,9 +1,12 @@
+/* Setup Section  */
 
 * {
   font-size: 16px;
   margin: 0;
   padding: 0  ;
 }
+
+/* Main & Image Section */
 
   body {
     background-color: #fff;
@@ -15,8 +18,6 @@
   text-align: center;
   
   }
-
-
 
   #title {
     font-size: 24px;
@@ -55,12 +56,15 @@
   padding: 10px;  
 }
 
+
+/* Ep 1 Timeline Section  */
+
+
 h2 {
   text-align: center;
   font-size: 22px;
 
 }
-
   #timeline {
     margin: 10px;
     padding: 20px;
@@ -72,6 +76,10 @@ h2 {
 li {
   padding: 10px;
 }
+
+
+/* Quote & End Info Section */
+
 
 p {
   padding: 10px;
